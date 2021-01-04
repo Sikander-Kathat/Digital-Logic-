@@ -1,9 +1,4 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{tikz}
-\usetikzlibrary{calc}
-\begin{document}
-\section{ Question  18 MUX diagram }
+
 \begin{tikzpicture}
 \draw (0,0)coordinate (O)--++(30:1)coordinate (P)--++(90:4)coordinate (Q)--++(150:1)coordinate (R)--cycle;
 \draw($(P)!0.5!(Q)$)--++(0:1)node[right]{$Co/t$};
@@ -13,6 +8,3 @@
 \draw ($(R)!\y*1.1!(O)$)--++(180:1)node[left]{$I\t$};}
 \end{tikzpicture} 
 
-
-    
-\end{document}
